@@ -63,8 +63,8 @@ class DoubleLList():
         bantu = self.head
         while bantu != None:
             print("=" * 30)
-            print("Nama\t: ", )
-            print("IPK\t: ", )
+            print("Nama\t: ", bantu.getNama())
+            print("IPK\t: ", bantu.getIpk())
             bantu = bantu._next
         print()
 
